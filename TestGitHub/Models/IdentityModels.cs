@@ -21,7 +21,7 @@ namespace TestGitHub.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("DefConn", throwIfV1Schema: false)
         {
         }
 
